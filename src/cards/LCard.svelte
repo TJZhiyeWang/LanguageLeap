@@ -1,14 +1,16 @@
 <script lang="ts">
-    export let question = "asd";
-    export let options = ["a", "b", "c", "d"];
+    export let question;
+    export let options;
     export let correctOption = 0;
     let selectedOption: number | null = null;
     let isCorrect = null;
-
     let optionColor = ["n", "n", "n", "n"];
     $: {
         console.log("Input value changed:", question);
         optionColor = ["n", "n", "n", "n"];
+        let tmp = document.getElementById("audio");
+        if (tmp != null)
+            tmp.load();
     }
 
     function checkAnswer() {
@@ -21,7 +23,12 @@
 </script>
 
 <div class="quiz-container">
-    <div class="question">{question}</div>
+    <div class="question">
+        <audio id="audio" controls>
+            <source src={question} type="audio/mp4" />
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
     <div class="divider"></div>
 
     <div class="options">
@@ -80,9 +87,6 @@
     .question,
     .options {
         width: 45%;
-        font-size: 20px;
-        text-align: center;
-        color: #3498db;
     }
 
     .options {

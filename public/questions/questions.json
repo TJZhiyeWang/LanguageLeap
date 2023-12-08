@@ -1,0 +1,215 @@
+[
+    {
+        "type": "R",
+        "level": "Conversation",
+        "question": "¿Cuál es tu película favorita y por qué te gusta? (What is your favorite movie, and why do you like it?)",
+        "option": [
+            "我最喜欢的电影是泰坦尼克号，因为它有一个令人激动的故事。",
+            "我没有最喜欢的电影。",
+            "我喜欢蜘蛛侠，因为它有很多动作。",
+            "我更喜欢电视剧而不是电影。"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "R",
+        "level": "Conversation",
+        "question": "¿De dónde eres? (你从哪里来？)",
+        "option": [
+            "你从哪里来？",
+            "我是中国人",
+            "我很好",
+            "谢谢"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "R",
+        "level": "Conversation",
+        "question": "¿Cuál es tu nombre? (你叫什么名字？)",
+        "option": [
+            "你叫什么名字？",
+            "你多大了？",
+            "你是哪国人？",
+            "你住在哪里？"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "R",
+        "level": "Conversation",
+        "question": "¿Cómo estás? (你好吗？)",
+        "option": [
+            "你好吗？",
+            "早上好",
+            "我很好",
+            "谢谢"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "L",
+        "level": "Conversation",
+        "question": "questions/audios/conversation1.mp4",
+        "option": [
+            "他问了什么？",
+            "她喜欢做什么？",
+            "这句话什么意思？",
+            "在音频中提出了什么问题？"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "L",
+        "level": "Conversation",
+        "question": "questions/audios/conversation2.mp4",
+        "option": [
+            "他问了什么？",
+            "她喜欢做什么？",
+            "这句话什么意思？",
+            "在音频中提出了什么问题？"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "L",
+        "level": "Conversation",
+        "question": "questions/audios/conversation3.mp4",
+        "option": [
+            "这句话什么意思？",
+            "他问了什么？",
+            "她喜欢做什么？",
+            "在音频中提出了什么问题？"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "L",
+        "level": "Conversation",
+        "question": "questions/audios/conversation4.mp4",
+        "option": [
+            "在音频中提出了什么问题？",
+            "他问了什么？",
+            "她喜欢做什么？",
+            "这句话什么意思？"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "W",
+        "level": "Conversation",
+        "question": "Escribe el número \"diez\" en español.",
+        "answer": "十"
+    },
+    {
+        "type": "W",
+        "level": "Conversation",
+        "question": "Escribe \"Gracias\" en español.",
+        "answer":"谢谢"
+    },
+    {
+        "type": "W",
+        "level": "Conversation",
+        "question": "Describe tu habitación en español.",
+        "answer": "我的房间很舒适，装饰以柔和的色调。我有一张舒适的床，一个用于学习的书桌，还有许多照片挂在墙上。"
+    },
+    {
+        "type": "W",
+        "level": "Conversation",
+        "question": "Describe tu familia en español.",
+        "answer": "我的家庭由父母、兄弟姐妹和我组成。我们关系亲近，相互支持。"
+    },
+    {
+        "type": "R",
+        "level": "Food",
+        "question": "¿Qué es tu fruta favorita?",
+        "option": ["苹果", "大饼", "巧克力", "公交车"],
+        "answer": 0
+    },
+    {
+        "type": "R",
+        "level": "Food",
+        "question": "¿Cómo decir chocolate en chino?",
+        "option": ["苹果", "大饼", "巧克力", "公交车"],
+        "answer": 2
+    },
+    {
+        "type": "R",
+        "level": "Food",
+        "question": "¿Te gusta la fondue?",
+        "option": ["不喜欢，太辣了", "我很好", "你好吗？", "我是谁"],
+        "answer": 0
+    },
+    {
+        "type": "W",
+        "level": "Food",
+        "question": "Escribe sobre tu experiencia en un restaurante español.",
+        "answer": "在西班牙餐厅的经历"
+    },
+    {
+        "type": "W",
+        "level": "Food",
+        "question": "Describe tu plato favorito y sus ingredientes.",
+        "answer": "你最喜欢的菜和它的原料"
+    },
+    {
+        "type": "W",
+        "level": "Food",
+        "question": "Escribe una receta simple en español.",
+        "answer": "用西班牙语写一个简单的食谱"
+    },
+    {
+        "type": "W",
+        "level": "Food",
+        "question": "¿Cómo se celebra la cena de Navidad en tu país? Describe en español.",
+        "answer": "你的国家是怎样庆祝圣诞晚餐的？用西班牙语描述"
+    },
+    {
+        "type": "L",
+        "level": "Food",
+        "question": "questions/audios/food1.mp4",
+        "option": [
+            "他喜欢吃西班牙的小吃。",
+            "他喜欢吃西班牙的大餐。",
+            "他喜欢吃西班牙的海鲜。",
+            "他喜欢吃西班牙的蛋糕。"
+        ],
+        "answer": 0
+    },
+    {
+        "type": "L",
+        "level": "Food",
+        "question": "questions/audios/food2.mp4",
+        "option": [
+            "他觉得西班牙的冷汤很差。",
+            "他觉得西班牙的冷汤很美味。",
+            "他觉得西班牙的冷汤很辣。",
+            "他觉得西班牙的冷汤很甜。"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "L",
+        "level": "Food",
+        "question": "questions/audios/food3.mp4",
+        "option": [
+            "他觉得这个海鲜饭很糟糕。",
+            "他觉得这个海鲜饭很美味。",
+            "他觉得这个海鲜饭很辣。",
+            "他觉得这个海鲜饭很便宜。"
+        ],
+        "answer": 1
+    },
+    {
+        "type": "Listening",
+        "level": 0,
+        "question": "questions/audios/food4.mp4",
+        "option": [
+            "她通常吃三明治。",
+            "她通常吃沙拉。",
+            "她通常吃炸鸡。",
+            "她通常吃咖啡和炸面圈。"
+        ],
+        "answer": 3
+    }
+]

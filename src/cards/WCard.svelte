@@ -1,48 +1,33 @@
 <script lang="ts">
-    export let question = "asd";
-    export let options = ["a", "b", "c", "d"];
-    export let correctOption = 0;
-    let selectedOption: number | null = null;
-    let isCorrect = null;
-
-    let optionColor = ["n", "n", "n", "n"];
-    $: {
-        console.log("Input value changed:", question);
-        optionColor = ["n", "n", "n", "n"];
+    export let question = "questions/audios/conversation4.mp4";
+    export let correctOption = "answer";
+    let showExample = false;
+    function showExampleText() {
+        showExample = true;
     }
-
-    function checkAnswer() {
-        isCorrect = options[selectedOption] === options[correctOption];
-        optionColor[correctOption] = "g";
-        if (!isCorrect) {
-            optionColor[selectedOption] = "r";
-        }
+    $: {
+        console.log('Input value changed:', question);
+        showExample = false;
     }
 </script>
 
 <div class="quiz-container">
-    <div class="question">{question}</div>
+    <div class="question">
+        {question}
+    </div>
     <div class="divider"></div>
 
     <div class="options">
-        {#each options as option, index}
-            <button
-                class="option-button"
-                class:correct={optionColor[index] == "g"}
-                class:incorrect={optionColor[index] == "r"}
-                on:click={() => {
-                    selectedOption = index;
-                    checkAnswer();
-                }}
-            >
-                {option}
-            </button>
-        {/each}
+        <textarea></textarea>
+        <button class="option-button" on:click={showExampleText}>Check</button>
+        {#if showExample}
+            <p>{correctOption}</p>
+        {/if}
     </div>
 </div>
 
 <style>
-    .option-button {
+        .option-button {
         display: inline-block;
         padding: 8px 16px;
         font-size: 14px;
@@ -93,13 +78,5 @@
 
     button {
         margin: 5px;
-    }
-
-    .correct {
-        border: 2px solid green;
-    }
-
-    .incorrect {
-        border: 2px solid red;
     }
 </style>
